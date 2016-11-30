@@ -21,7 +21,7 @@ class DefaultEncrypter implements Encrypter
      */
     public function __construct($key, IlluminateEncrypter $encrypter = null)
     {
-        $this->encrypter = $encrypter ?: new DefaultIlluminateEncrypter(md5($key));
+        $this->encrypter = $encrypter ?: new DefaultIlluminateEncrypter(md5($key), 'AES-256-CBC');
     }
 
     /**
