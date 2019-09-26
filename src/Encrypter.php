@@ -1,4 +1,6 @@
-<?php namespace CodeZero\Encrypter;
+<?php
+
+namespace CodeZero\Encrypter;
 
 interface Encrypter
 {

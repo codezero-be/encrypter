@@ -1,4 +1,6 @@
-<?php namespace CodeZero\Encrypter;
+<?php
+
+namespace CodeZero\Encrypter;
 
 use Illuminate\Contracts\Encryption\DecryptException as IlluminateDecryptException;
 use Illuminate\Contracts\Encryption\Encrypter as IlluminateEncrypter;
@@ -11,7 +13,7 @@ class DefaultEncrypter implements Encrypter
      *
      * @var IlluminateEncrypter
      */
-    private $encrypter;
+    protected $encrypter;
 
     /**
      * Create a new instance of LaravelEncrypter
