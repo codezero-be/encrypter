@@ -16,8 +16,8 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "illuminate/contracts": "~5.0",
-    "illuminate/encryption": "~5.0"
+    "illuminate/contracts": ">=5.0",
+    "illuminate/encryption": ">=5.0"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.0",
