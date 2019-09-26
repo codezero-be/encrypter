@@ -2,6 +2,7 @@
 /.cache
 /coverage
 coverage.*
+/phpunit.xml
 composer.phar
 composer.lock
 .idea
